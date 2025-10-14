@@ -40,6 +40,16 @@ async function buildAll() {
 
   // copy README or assets if any
   console.log('\nAll builds complete. Public folder ready.')
+
+  // Ensure root index.html is available under public/ so the site root doesn't 404
+  const rootIndex = path.join(ROOT, 'index.html')
+  const publicIndex = path.join(outPublic, 'index.html')
+  if (await fs.pathExists(rootIndex)) {
+    await fs.copy(rootIndex, publicIndex)
+    console.log('Copied root index.html to public/index.html')
+  } else {
+    console.warn('No root index.html found to copy into public/')
+  }
 }
 
 buildAll()
