@@ -44,7 +44,7 @@ Follow the steps below to run this project locally:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone [PASTE YOUR GITHUB CLONE URL HERE]
+git clone https://github.com/jbcolima/Colima_Activity1.1-1.5_ITE18
 cd ITE-18_Activity_1
 ```
 
