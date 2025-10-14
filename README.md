@@ -13,7 +13,6 @@ These activities cover the core fundamentals of the **Three.js** library — inc
 |------|---------|------|
 | **Live Project (Vercel)** | 🟢 Deployed | [PASTE YOUR VERCEL DEPLOYMENT LINK HERE] |
 | **Source Code (GitHub)** | 🌐 Public | [THIS IS THE REPOSITORY YOU ARE VIEWING] |
-| **ZIP File** | 📤 Submitted | (Uploaded via LMS/Email) |
 
 ---
 
@@ -50,7 +49,7 @@ These modifications demonstrate mastery of the concepts covered in each part:
 Follow the steps below to run this project locally:
 
 ### 1️⃣ Clone the Repository
-```bash
+bash
 git clone [PASTE YOUR GITHUB CLONE URL HERE]
 cd ITE-18_Activity_1
 2️⃣ Install Dependencies (if using Vite or a bundler)
@@ -68,7 +67,7 @@ Open the provided local URL in your browser (usually http://localhost:5173/).
 🧠 Summary
 This project showcases a progression from a static 3D scene to a fully interactive and animated environment using Three.js — applying key concepts such as geometry, materials, transformations, camera control, and animation timing.
 
-Developed by:
+Developed by: John Barry R. Colima
 🎓 [Your Name]
 🖥️ ITE-18 — Applications Development and Emerging Technologies
 👨‍🏫 Instructor: Prof. James Earl D. Cubillas, M.Sc., ECT
