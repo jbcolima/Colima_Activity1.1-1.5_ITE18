@@ -1,0 +1,11 @@
+{
+  "name": "colima-activities-site",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build-all.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
