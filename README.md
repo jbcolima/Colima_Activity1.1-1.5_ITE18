@@ -19,25 +19,6 @@ This project was built using the following core technologies, following the guid
 
 ---
 
-## ✨ Modifications & Key Takeaways
-
-Per the instruction to *“play around or modify the given code,”* the following enhancements were implemented beyond the basic lab steps.  
-These modifications demonstrate mastery of the concepts covered in each part:
-
-### 🧩 Part 1 & 3: Basic Scene & Transform Objects
-- **Complex Geometry** – The main object was changed from a simple `BoxGeometry` to a `TorusKnotGeometry` to better showcase lighting and rotation.  
-- **Scene Hierarchy (Solar System Concept)** – A `THREE.Group` was used to create a parent-child relationship where a “Moon” orbits an “Earth,” and both rotate around a central point, demonstrating inherited transformations.
-
-### 🎞️ Part 4: Animations
-- **Advanced Time-Based Animation** – The object’s position and scale are controlled using `Math.sin()` and `Math.cos()` based on `elapsedTime`, creating a smooth, rhythmic “breathing” effect rather than simple rotation.  
-- **Cinematic Camera** – The camera was animated to slowly orbit the scene, giving a dynamic, cinematic view of the setup.
-
-### 🎥 Part 5: Cameras
-- **Camera Damping** – `controls.enableDamping = true` was enabled to produce smooth, realistic camera movement.  
-- **Rotation Limits** – `controls.maxPolarAngle` was configured to restrict the camera’s vertical rotation, preventing it from going below the scene plane.
-
----
-
 ## ⚙️ Local Development Setup
 
 Follow the steps below to run this project locally:
